@@ -1,6 +1,6 @@
 body {
     /*https://css-tricks.com/perfect-full-page-background-image/*/
-    background: url("../images/starinoverwall-n-me.jpg") no-repeat center center fixed;
+    background: url("../images/starinoverwall-n-me2.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -65,7 +65,6 @@ input {
     background-color: #6FC6FF;
     box-shadow: 0px 5px 0px 0px #6FC6FF;
 }
-
 .green {
   background-color: #2ecc71;
   box-shadow: 0px 5px 0px 0px #15B358;

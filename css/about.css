@@ -1,3 +1,15 @@
+h1 {
+  font-size: 4.5vw;
+    font-family: 'Walkway SemiBold';
+}
+h2 {
+  font-size: 4.0vh;
+    font-family: 'Walkway SemiBold';
+}
+h3 {
+  font-size: 3.5vmin;
+    font-family: 'Walkway SemiBold';
+}
 body {
     /*https://css-tricks.com/perfect-full-page-background-image/*/
     background: url("../images/closeup-n-me.jpg") no-repeat center center fixed;
@@ -5,6 +17,9 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    overflow: hidden;
 }
 input {
     border: 5px solid white; 
@@ -42,11 +57,14 @@ input {
     font-size: 20px;
     border-radius: 12px;
 }
+@font-face {
+    font-family: 'Walkway SemiBold';
+    src: url('../fonts/Walkway%20SemiBold.ttf');
+}
 .abtText {
     opacity: 1;
     text-align: center;
     font-family: 'Walkway SemiBold';
-    src: url('http://www.fontsaddict.com/fontface/walkway-semibold.ttf');
 }
 .lowcenter {
     position: fixed;
@@ -55,10 +73,9 @@ input {
     transform: translate(-50%, -0%);
 }
 .center {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    margin-left:auto;
+    margin-right:auto;
+    width:50%;
 }
 .highcenter {
     position: fixed;
@@ -74,6 +91,7 @@ input {
     margin: 25px 0 0 0;
     color: #fff;
     display: inline-block;
+    font-family: 'Walkway SemiBold';
 }
 .btn:active {
     transform: translate(0px, 5px);
